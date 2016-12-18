@@ -1,0 +1,73 @@
+div {
+  box-sizing: border-box;
+}
+
+.app-calculator {
+  background-color: #000000;
+  max-width: 338px;
+}
+
+.entry{
+  min-height: 50px;
+  background-color: #000000;
+  padding: 0 4px 0 0;
+  margin: 0;
+  width: 100%;
+  border: 0;
+
+  color: #F6F7F5;
+  font-size: 30px;
+  line-height: 1.5;
+
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-wrapper button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  font-size: 30px;
+  margin: 0 4px 4px 0px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-wrapper button:focus {
+  outline: none;
+}
+
+.button-wrapper .number:active {
+  background-color: #202020;
+}
+
+.button-wrapper .control {
+  background-color: #202020;
+  color: #F6F7F5;
+}
+
+.button-wrapper .control:active {
+  background-color: #434542;
+}
+
+.button-wrapper .del {
+  font-size: 16px;
+}
+
+.button-wrapper .number {
+  background-color: #434542;
+  color: #F6F7F5;
+}
+
+.button-wrapper .spacing {
+  width: 248px;
+  margin: 0 4px 0 0;
+  display: inline-block;
+}
